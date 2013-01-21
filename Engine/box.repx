@@ -1,0 +1,107 @@
+<PhysX30Collection version="1.0" >
+	<UpVector >-0 1 -0</UpVector>
+	<PxMaterial >
+		<Id >1</Id>
+		<dynamicFriction >0</dynamicFriction>
+		<staticFriction >0</staticFriction>
+		<restitution >0</restitution>
+		<dynamicFrictionV >0</dynamicFrictionV>
+		<staticFrictionV >0</staticFrictionV>
+		<dirOfAnisotropy >1 0 0</dirOfAnisotropy>
+		<frictionCombineMode >eAVERAGE</frictionCombineMode>
+		<restitutionCombineMode >eAVERAGE</restitutionCombineMode>
+	</PxMaterial>
+	<PxConvexMesh >
+		<Id >2003</Id>
+		<Points > 0.484933 -0.429554 -0.54836 0.484933 -0.429554 0.54836
+				-0.484933 -0.429554 0.54836 0.484933 -0.429554 -0.54836
+				-0.484933 -0.429554 0.54836 -0.484933 -0.429554 -0.54836
+				0.484933 0.429554 0.54836 0.484933 0.429554 -0.54836
+				-0.484933 0.429554 -0.54836 0.484933 0.429554 0.54836
+				-0.484933 0.429554 -0.54836 -0.484933 0.429554 0.54836
+				0.484933 0.429554 -0.54836 0.484933 0.429554 0.54836
+				0.484933 -0.429554 0.54836 0.484933 0.429554 -0.54836
+				0.484933 -0.429554 0.54836 0.484933 -0.429554 -0.54836
+				-0.484933 -0.429554 -0.54836 -0.484933 -0.429554 0.54836
+				-0.484933 0.429554 0.54836 -0.484933 -0.429554 -0.54836
+				-0.484933 0.429554 0.54836 -0.484933 0.429554 -0.54836
+				0.484933 -0.429554 -0.54836 -0.484933 -0.429554 -0.54836
+				-0.484933 0.429554 -0.54836 0.484933 -0.429554 -0.54836
+				-0.484933 0.429554 -0.54836 0.484933 0.429554 -0.54836
+				-0.484933 -0.429554 0.54836 0.484933 -0.429554 0.54836
+				0.484933 0.429554 0.54836 -0.484933 -0.429554 0.54836
+				0.484933 0.429554 0.54836 -0.484933 0.429554 0.54836</Points>
+	</PxConvexMesh>
+	<PxRigidStatic >
+		<Id >20</Id>
+		<GlobalPose >0 0 0 1 0 0 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 0 0.7071 0.7071 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >29</Id>
+		<GlobalPose >0 0 0 1 0 0 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 0 0.7071 0.7071 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >4079</Id>
+		<Name >groundPlane</Name>
+		<GlobalPose >0 0 0 1 0 0 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Name >Ground</Name>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 0 0.7071 0.7071 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidDynamic >
+		<Name >pCube1</Name>
+		<Mass >9.13808e-007</Mass>
+		<LinearVelocity >0 -32.7 0</LinearVelocity>
+		<AngularVelocity >0 0 0</AngularVelocity>
+		<MassSpaceInertiaTensor >1.47798e-007 1.63224e-007 1.27835e-007</MassSpaceInertiaTensor>
+		<Id >4082</Id>
+		<Name >pCube1</Name>
+		<GlobalPose >-0.193151 -0.229403 -0.441959 0.845422 0.520464 5.59538 -0.52052</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Name >pCube1RigidBodyShape1</Name>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Mass >0</Mass>
+				<Geometry >
+					<PxConvexMeshGeometry >
+						<ConvexMesh >2003</ConvexMesh>
+					</PxConvexMeshGeometry>
+				</Geometry>
+				<LocalPose >4.16334e-017 -1.38778e-017 2.42861e-017 1 0 8.88178e-016 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidDynamic>
+</PhysX30Collection>

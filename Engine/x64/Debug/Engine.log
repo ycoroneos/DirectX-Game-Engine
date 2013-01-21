@@ -1,0 +1,160 @@
+﻿Build started 11/2/2012 9:18:32 PM.
+     1>Project "C:\Users\Rula\documents\visual studio 2010\Projects\Engine\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\Engine.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Ot /D PX_PHYSX_CHARACTER_STATIC_LIB /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt Start.cpp
+         Start.cpp
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(50): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(135): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(202): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(364): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(370): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(370): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(370): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(370): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(388): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(388): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(388): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(388): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(448): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(458): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(449): warning C4101: 'root_index' : unreferenced local variable
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(493): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(5): warning C4005: 'AI_LMW_MAX_WEIGHTS' : macro redefinition
+                 c:\users\rula\desktop\assimp--2.0.863-sdk\assimp--2.0.863-sdk\include\aiConfig.h(269) : see previous definition of 'AI_LMW_MAX_WEIGHTS'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(6): warning C4005: 'AI_CONFIG_PP_LBW_MAX_WEIGHTS' : macro redefinition
+                 c:\users\rula\desktop\assimp--2.0.863-sdk\assimp--2.0.863-sdk\include\aiConfig.h(265) : see previous definition of 'AI_CONFIG_PP_LBW_MAX_WEIGHTS'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(133): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(146): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(169): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(186): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(186): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(186): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(186): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(212): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(256): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(45): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(46): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(47): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(48): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(65): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(74): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(81): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(85): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(92): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(92): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(96): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(103): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(103): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(103): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(107): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(114): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(114): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(114): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(114): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(118): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(122): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\GeometryHelper.h(25): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\GeometryHelper.h(28): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(175): warning C4101: 'indices' : unreferenced local variable
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(174): warning C4101: 'verts' : unreferenced local variable
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(173): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>C:\Users\Rula\Desktop\PhysX-3.0.2_PC_SDK_Core\SDKs\RepX\include\RepXUtility.h(151): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Rula\Desktop\PhysX-3.0.2_PC_SDK_Core\SDKs\RepX\include\RepXUtility.h(166): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\PhysxModule.h(312): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\PhysxModule.h(316): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\PhysxModule.h(316): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\PhysxModule.h(316): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(26): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(41): warning C4305: '=' : truncation from 'double' to 'physx::pubfnd3::PxReal'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(47): warning C4305: '=' : truncation from 'double' to 'physx::pubfnd3::PxReal'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(51): warning C4305: '=' : truncation from 'double' to 'physx::pubfnd3::PxReal'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(57): warning C4305: '=' : truncation from 'double' to 'physx::pubfnd3::PxReal'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Controllable_Character.h(75): warning C4305: 'argument' : truncation from 'double' to 'float'
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Input.h(74): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Input.h(74): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Input.h(126): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Input.h(126): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(55): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(57): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(59): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(61): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(63): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(65): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(67): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(69): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(74): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(76): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(99): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(116): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(128): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(133): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(133): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(176): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Level.h(180): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(153): warning C4715: 'LoadMesh' : not all control paths return a value
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\deferred.h(181): warning C4715: 'DeferredRender::init' : not all control paths return a value
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\level.h(136): warning C4715: 'Level::LoadLevel' : not all control paths return a value
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\light.h(221): warning C4715: 'Sorter::init' : not all control paths return a value
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rula\documents\visual studio 2010\Projects\Engine\x64\Debug\Engine.exe" /INCREMENTAL /NOLOGO assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Engine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rula\documents\visual studio 2010\Projects\Engine\x64\Debug\Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rula\documents\visual studio 2010\Projects\Engine\x64\Debug\Engine.lib" /MACHINE:X64 x64\Debug\Engine.exe.embed.manifest.res
+         x64\Debug\Start.obj
+         "..\..\..\..\..\Desktop\assimp--2.0.863-sdk\assimp--2.0.863-sdk\lib\assimp_debug-noboost-st_Win32\assimp.lib" /D3D10_SHADER_DEBUG /D3D10_SHADER_SKIP_OPTIMIZATION 
+     1>LINK : warning LNK4044: unrecognized option '/D3D10_SHADER_DEBUG'; ignored
+     1>LINK : warning LNK4044: unrecognized option '/D3D10_SHADER_SKIP_OPTIMIZATION'; ignored
+     1>libcpmtd.lib(xdebug.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>Start.obj : error LNK2019: unresolved external symbol "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ) referenced in function "public: void __cdecl Sorter::LoadLightFile(char const *,struct ID3D11Device *,struct ID3D11DeviceContext *)" (?LoadLightFile@Sorter@@QEAAXPEBDPEAUID3D11Device@@PEAUID3D11DeviceContext@@@Z)
+     1>Start.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z) referenced in function "public: void __cdecl Sorter::LoadLightFile(char const *,struct ID3D11Device *,struct ID3D11DeviceContext *)" (?LoadLightFile@Sorter@@QEAAXPEBDPEAUID3D11Device@@PEAUID3D11DeviceContext@@@Z)
+     1>Start.obj : error LNK2019: unresolved external symbol "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ) referenced in function "public: void __cdecl Sorter::LoadLightFile(char const *,struct ID3D11Device *,struct ID3D11DeviceContext *)" (?LoadLightFile@Sorter@@QEAAXPEBDPEAUID3D11Device@@PEAUID3D11DeviceContext@@@Z)
+     1>C:\Users\Rula\documents\visual studio 2010\Projects\Engine\x64\Debug\Engine.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\Rula\documents\visual studio 2010\Projects\Engine\Engine\Engine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.65

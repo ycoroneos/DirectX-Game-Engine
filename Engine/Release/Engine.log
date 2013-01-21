@@ -1,0 +1,27 @@
+﻿Build started 9/10/2011 6:18:29 PM.
+     1>Project "C:\Users\Rula\documents\visual studio 2010\Projects\Engine\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Start.cpp
+         Start.cpp
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(78): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(81): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(90): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(111): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\GeometryHelper.h(25): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\GeometryHelper.h(28): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(175): warning C4101: 'indices' : unreferenced local variable
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(174): warning C4101: 'verts' : unreferenced local variable
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(239): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(66): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(66): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(155): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\rula\desktop\physx-3.0.2_pc_sdk_core\sdks\physxapi\foundation\PxPreprocessor.h(267): fatal error C1189: #error :  Exactly one of NDEBUG and _DEBUG needs to be defined by preprocessor
+     1>Done Building Project "C:\Users\Rula\documents\visual studio 2010\Projects\Engine\Engine\Engine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.46

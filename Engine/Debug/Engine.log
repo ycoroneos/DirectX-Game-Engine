@@ -1,0 +1,96 @@
+﻿Build started 11/2/2012 9:22:13 PM.
+     1>Project "C:\Users\Rula\documents\visual studio 2010\Projects\Engine\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Engine.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Start.cpp
+         Start.cpp
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(50): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(73): error C2719: 'parentMatrix': formal parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(135): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(173): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(183): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(266): error C2719: 'LocalTrans': formal parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(266): error C2719: 'AssimpTrans': formal parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(290): error C2719: 'in': formal parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(391): error C2719: 'worldTrans': formal parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(406): error C2719: 'in': formal parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(364): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(370): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(370): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(370): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(370): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(388): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(388): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(388): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(388): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(463): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(473): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skeleton.h(483): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\skinnedmodelobject.h(48): error C2719: 'in': formal parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(5): warning C4005: 'AI_LMW_MAX_WEIGHTS' : macro redefinition
+                 c:\users\rula\desktop\assimp--2.0.863-sdk\assimp--2.0.863-sdk\include\aiconfig.h(269) : see previous definition of 'AI_LMW_MAX_WEIGHTS'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(6): warning C4005: 'AI_CONFIG_PP_LBW_MAX_WEIGHTS' : macro redefinition
+                 c:\users\rula\desktop\assimp--2.0.863-sdk\assimp--2.0.863-sdk\include\aiconfig.h(265) : see previous definition of 'AI_CONFIG_PP_LBW_MAX_WEIGHTS'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(133): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(146): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(169): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(179): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(186): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(186): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(186): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(186): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(212): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\objlib.h(256): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(81): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(92): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(92): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(103): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(103): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(103): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(114): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(114): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(114): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\mesh_loader.h(114): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\geometryhelper.h(25): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\geometryhelper.h(28): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\light.h(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\light.h(239): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\heightmap.h(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\heightmap.h(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\desktop\physx-3.0.2_pc_sdk_core\sdks\repx\include\repxutility.h(151): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\desktop\physx-3.0.2_pc_sdk_core\sdks\repx\include\repxutility.h(166): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\physxmodule.h(312): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\physxmodule.h(316): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\physxmodule.h(316): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\physxmodule.h(316): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(26): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(41): warning C4305: '=' : truncation from 'double' to 'physx::pubfnd3::PxReal'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(47): warning C4305: '=' : truncation from 'double' to 'physx::pubfnd3::PxReal'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(51): warning C4305: '=' : truncation from 'double' to 'physx::pubfnd3::PxReal'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(57): warning C4305: '=' : truncation from 'double' to 'physx::pubfnd3::PxReal'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(75): warning C4244: 'argument' : conversion from 'const PxExtended' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\controllable_character.h(75): warning C4305: 'argument' : truncation from 'double' to 'float'
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\input.h(74): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\input.h(74): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\input.h(126): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\input.h(126): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\level.h(102): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\level.h(133): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\level.h(133): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\level.h(176): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\level.h(180): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>Done Building Project "C:\Users\Rula\documents\visual studio 2010\Projects\Engine\Engine\Engine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.97

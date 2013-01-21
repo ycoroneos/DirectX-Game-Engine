@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-07-04T17:42:00Z</created>
+    <modified>2011-07-04T17:42:00Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="0.025400"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map__2-image" name="Map__2">
+      <init_from>file://C:\Users\Rula\Documents\Visual Studio 2010\Projects\Engine\Engine\water.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_01___Default" name="_01___Default">
+      <instance_effect url="#_01___Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_01___Default-fx" name="_01___Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box001-lib" name="Box001Mesh">
+      <mesh>
+        <source id="Box001-lib-Position">
+          <float_array id="Box001-lib-Position-array" count="24">
+-10.943417 -9.451132 0.000000
+10.943417 -9.451132 0.000000
+-10.943417 9.451132 0.000000
+10.943417 9.451132 0.000000
+-10.943417 -9.451132 17.907406
+10.943417 -9.451132 17.907406
+-10.943417 9.451132 17.907406
+10.943417 9.451132 17.907406
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-lib-Position-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001-lib-Normal0">
+          <float_array id="Box001-lib-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-lib-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001-lib-UV0">
+          <float_array id="Box001-lib-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-lib-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box001-lib-Vertex">
+          <input semantic="POSITION" source="#Box001-lib-Position"/>
+        </vertices>
+        <polygons material="_01___Default" count="12">
+          <input semantic="VERTEX" offset="0" source="#Box001-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#Box001-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box001-lib-UV0"/>
+          <p>0 0 9 2 1 11 3 2 10</p>
+          <p>3 3 10 1 4 8 0 5 9</p>
+          <p>4 6 8 5 7 9 7 8 11</p>
+          <p>7 9 11 6 10 10 4 11 8</p>
+          <p>0 12 4 1 13 5 5 14 7</p>
+          <p>5 15 7 4 16 6 0 17 4</p>
+          <p>1 18 0 3 19 1 7 20 3</p>
+          <p>7 21 3 5 22 2 1 23 0</p>
+          <p>3 24 4 2 25 5 6 26 7</p>
+          <p>6 27 7 7 28 6 3 29 4</p>
+          <p>2 30 0 0 31 1 4 32 3</p>
+          <p>4 33 3 6 34 2 2 35 0</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="Omni001-lib" name="Omni001Mesh">
+      <technique_common>
+        <point>
+          <color sid="color">1.000000 1.000000 1.000000</color>
+        </point>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">0.999900</intensity>
+      </technique>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="Omni001" name="Omni001">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -0.284900 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 0.854701 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_light url="#Omni001-lib"/>
+      </node>
+      <node id="Box001" name="Box001">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 7.329905 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 -39.830421 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box001-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_01___Default" target="#_01___Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+

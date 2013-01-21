@@ -1,0 +1,19 @@
+Level 1.con
+Object Dir = \\Objects
+Light Dir = \\Lighting
+Physics Dir = \\Physics
+
+Heightfield = heightMap_16.raw
+Heightfield Texture = terrain.jpg
+Heightfield Scale = 100
+
+Object Library = g36.3ds
+
+Lighting Description = box.3ds
+
+Physics Engine = Nvidia Physx
+Physics File = bf2.repx
+
+BEGIN START_COMMANDS
+createFreeFloatCamera(0,0,10,0,0,0,0,1,0,0.1,1000)
+END START_COMMANDS

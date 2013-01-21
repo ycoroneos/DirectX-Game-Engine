@@ -1,0 +1,43 @@
+﻿Build started 4/9/2012 4:27:45 PM.
+     1>Project "C:\Users\Rula\documents\visual studio 2010\Projects\Engine\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\Engine.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Ot /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt Start.cpp
+         Start.cpp
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(102): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(250): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(256): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(256): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(256): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(256): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(274): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(274): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(274): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(274): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(334): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(344): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(335): warning C4101: 'root_index' : unreferenced local variable
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Skeleton.h(379): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(43): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(49): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(123): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(159): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(168): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\OBJLib.h(208): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\GeometryHelper.h(25): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\GeometryHelper.h(28): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(175): warning C4101: 'indices' : unreferenced local variable
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\Light.h(174): warning C4101: 'verts' : unreferenced local variable
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\rula\documents\visual studio 2010\projects\engine\engine\HeightMap.h(173): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\rula\desktop\physx-3.0.2_pc_sdk_core\sdks\physxapi\foundation\PxPreprocessor.h(267): fatal error C1189: #error :  Exactly one of NDEBUG and _DEBUG needs to be defined by preprocessor
+     1>Done Building Project "C:\Users\Rula\documents\visual studio 2010\Projects\Engine\Engine\Engine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.52

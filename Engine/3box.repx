@@ -1,0 +1,291 @@
+<PhysX30Collection version="1.0" >
+	<UpVector >-0 1 -0</UpVector>
+	<PxMaterial >
+		<Id >1</Id>
+		<dynamicFriction >0</dynamicFriction>
+		<staticFriction >0</staticFriction>
+		<restitution >0</restitution>
+		<dynamicFrictionV >0</dynamicFrictionV>
+		<staticFrictionV >0</staticFrictionV>
+		<dirOfAnisotropy >1 0 0</dirOfAnisotropy>
+		<frictionCombineMode >eAVERAGE</frictionCombineMode>
+		<restitutionCombineMode >eAVERAGE</restitutionCombineMode>
+	</PxMaterial>
+	<PxConvexMesh >
+		<Id >2003</Id>
+		<Points > 10.8362 10.2664 -0.01 10.8362 -10.2664 -0.01
+				-10.8362 -10.2664 -0.01 10.8362 10.2664 -0.01
+				-10.8362 -10.2664 -0.01 -10.8362 10.2664 -0.01
+				10.8362 -10.2664 -0.01 10.8362 10.2664 -0.01
+				10.8362 10.2664 19.3832 10.8362 -10.2664 -0.01
+				10.8362 10.2664 19.3832 10.8362 -10.2664 19.3832
+				-10.8362 10.2664 19.3832 10.8362 10.2664 19.3832
+				10.8362 10.2664 -0.01 -10.8362 10.2664 19.3832
+				10.8362 10.2664 -0.01 -10.8362 10.2664 -0.01
+				-10.8362 10.2664 19.3832 -10.8362 10.2664 -0.01
+				-10.8362 -10.2664 -0.01 -10.8362 10.2664 19.3832
+				-10.8362 -10.2664 -0.01 -10.8362 -10.2664 19.3832
+				-10.8362 -10.2664 19.3832 -10.8362 -10.2664 -0.01
+				10.8362 -10.2664 -0.01 -10.8362 -10.2664 19.3832
+				10.8362 -10.2664 -0.01 10.8362 -10.2664 19.3832
+				-10.8362 10.2664 19.3832 -10.8362 -10.2664 19.3832
+				10.8362 -10.2664 19.3832 -10.8362 10.2664 19.3832
+				10.8362 -10.2664 19.3832 10.8362 10.2664 19.3832</Points>
+	</PxConvexMesh>
+	<PxConvexMesh >
+		<Id >2004</Id>
+		<Points > 5.70801 5.70801 -0.01 5.70801 -5.70801 -0.01
+				-5.70801 -5.70801 -0.01 5.70801 5.70801 -0.01
+				-5.70801 -5.70801 -0.01 -5.70801 5.70801 -0.01
+				5.70801 -5.70801 -0.01 5.70801 5.70801 -0.01
+				5.70801 5.70801 10.2664 5.70801 -5.70801 -0.01
+				5.70801 5.70801 10.2664 5.70801 -5.70801 10.2664
+				-5.70801 5.70801 10.2664 5.70801 5.70801 10.2664
+				5.70801 5.70801 -0.01 -5.70801 5.70801 10.2664
+				5.70801 5.70801 -0.01 -5.70801 5.70801 -0.01
+				-5.70801 5.70801 10.2664 -5.70801 5.70801 -0.01
+				-5.70801 -5.70801 -0.01 -5.70801 5.70801 10.2664
+				-5.70801 -5.70801 -0.01 -5.70801 -5.70801 10.2664
+				5.70801 -5.70801 10.2664 5.70801 5.70801 10.2664
+				-5.70801 5.70801 10.2664 5.70801 -5.70801 10.2664
+				-5.70801 5.70801 10.2664 -5.70801 -5.70801 10.2664
+				-5.70801 -5.70801 10.2664 -5.70801 -5.70801 -0.01
+				5.70801 -5.70801 -0.01 -5.70801 -5.70801 10.2664
+				5.70801 -5.70801 -0.01 5.70801 -5.70801 10.2664</Points>
+	</PxConvexMesh>
+	<PxConvexMesh >
+		<Id >2005</Id>
+		<Points > 5.99291 5.42311 -0.01 5.99291 -5.42311 -0.01
+				-5.99291 -5.42311 -0.01 5.99291 5.42311 -0.01
+				-5.99291 -5.42311 -0.01 -5.99291 5.42311 -0.01
+				5.99291 -5.42311 -0.01 5.99291 5.42311 -0.01
+				5.99291 5.42311 9.69661 5.99291 -5.42311 -0.01
+				5.99291 5.42311 9.69661 5.99291 -5.42311 9.69661
+				-5.99291 5.42311 9.69661 5.99291 5.42311 9.69661
+				5.99291 5.42311 -0.01 -5.99291 5.42311 9.69661
+				5.99291 5.42311 -0.01 -5.99291 5.42311 -0.01
+				-5.99291 5.42311 9.69661 -5.99291 5.42311 -0.01
+				-5.99291 -5.42311 -0.01 -5.99291 5.42311 9.69661
+				-5.99291 -5.42311 -0.01 -5.99291 -5.42311 9.69661
+				-5.99291 -5.42311 9.69661 -5.99291 -5.42311 -0.01
+				5.99291 -5.42311 -0.01 -5.99291 -5.42311 9.69661
+				5.99291 -5.42311 -0.01 5.99291 -5.42311 9.69661
+				-5.99291 5.42311 9.69661 -5.99291 -5.42311 9.69661
+				5.99291 -5.42311 9.69661 -5.99291 5.42311 9.69661
+				5.99291 -5.42311 9.69661 5.99291 5.42311 9.69661</Points>
+	</PxConvexMesh>
+	<PxConvexMesh >
+		<Id >2006</Id>
+		<Points > -5.70801 -6.27781 9.69661 5.70801 -6.27781 9.69661
+				5.70801 6.27781 9.69661 -5.70801 -6.27781 9.69661
+				5.70801 6.27781 9.69661 -5.70801 6.27781 9.69661
+				5.70801 6.27781 -0.01 5.70801 6.27781 9.69661
+				5.70801 -6.27781 9.69661 5.70801 6.27781 -0.01
+				5.70801 -6.27781 9.69661 5.70801 -6.27781 -0.01
+				-5.70801 6.27781 -0.01 -5.70801 6.27781 9.69661
+				5.70801 6.27781 9.69661 -5.70801 6.27781 -0.01
+				5.70801 6.27781 9.69661 5.70801 6.27781 -0.01
+				-5.70801 -6.27781 9.69661 -5.70801 6.27781 9.69661
+				-5.70801 6.27781 -0.01 -5.70801 -6.27781 9.69661
+				-5.70801 6.27781 -0.01 -5.70801 -6.27781 -0.01
+				-5.70801 -6.27781 9.69661 -5.70801 -6.27781 -0.01
+				5.70801 -6.27781 -0.01 -5.70801 -6.27781 9.69661
+				5.70801 -6.27781 -0.01 5.70801 -6.27781 9.69661
+				5.70801 -6.27781 -0.01 -5.70801 -6.27781 -0.01
+				-5.70801 6.27781 -0.01 5.70801 -6.27781 -0.01
+				-5.70801 6.27781 -0.01 5.70801 6.27781 -0.01</Points>
+	</PxConvexMesh>
+	<PxConvexMesh >
+		<Id >2007</Id>
+		<Points > 133.333 -166.952 6.66667 -133.333 -166.952 6.66667
+				-133.333 -166.952 -6.66667 133.333 -166.952 6.66667
+				-133.333 -166.952 -6.66667 133.333 -166.952 -6.66667
+				-133.333 -166.952 6.66667 133.333 -166.952 6.66667
+				133.333 166.952 6.66667 -133.333 -166.952 6.66667
+				133.333 166.952 6.66667 -133.333 166.952 6.66667
+				-133.333 166.952 -6.66667 -133.333 -166.952 -6.66667
+				-133.333 -166.952 6.66667 -133.333 166.952 -6.66667
+				-133.333 -166.952 6.66667 -133.333 166.952 6.66667
+				133.333 -166.952 -6.66667 -133.333 -166.952 -6.66667
+				-133.333 166.952 -6.66667 133.333 -166.952 -6.66667
+				-133.333 166.952 -6.66667 133.333 166.952 -6.66667
+				133.333 166.952 -6.66667 133.333 166.952 6.66667
+				133.333 -166.952 6.66667 133.333 166.952 -6.66667
+				133.333 -166.952 6.66667 133.333 -166.952 -6.66667
+				-133.333 166.952 6.66667 133.333 166.952 6.66667
+				133.333 166.952 -6.66667 -133.333 166.952 6.66667
+				133.333 166.952 -6.66667 -133.333 166.952 -6.66667</Points>
+	</PxConvexMesh>
+	<PxRigidStatic >
+		<Id >20</Id>
+		<GlobalPose >0 0 0 1 0 0 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 0 0.7071 0.7071 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >29</Id>
+		<GlobalPose >0 0 0 1 0 0 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 0 0.7071 0.7071 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >2016</Id>
+		<GlobalPose >0 0 0 1 0 0 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Name >Ground</Name>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 0 0.7071 0.7071 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidDynamic >
+		<Name >Box001</Name>
+		<Mass >70.7093</Mass>
+		<LinearVelocity >-1.34464 -54.4167 1.02382</LinearVelocity>
+		<AngularVelocity >-0.0627756 -0.0622674 0.165914</AngularVelocity>
+		<MassSpaceInertiaTensor >4700.37 4983.77 5251.88</MassSpaceInertiaTensor>
+		<Id >2019</Id>
+		<Name >Box001</Name>
+		<GlobalPose >0.00162021 0.0105211 0.00137722 0.999942 10.0331 5.16399 64.655</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Name >Box001</Name>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Mass >70.7093</Mass>
+				<Geometry >
+					<PxConvexMeshGeometry >
+						<ConvexMesh >2003</ConvexMesh>
+					</PxConvexMeshGeometry>
+				</Geometry>
+				<LocalPose >0 0 0 1 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Name >Box002</Name>
+		<Mass >10.9734</Mass>
+		<LinearVelocity >-5.33522 -60.5819 -1.32049</LinearVelocity>
+		<AngularVelocity >0.519076 -0.177748 0.0144509</AngularVelocity>
+		<MassSpaceInertiaTensor >215.746 215.746 238.352</MassSpaceInertiaTensor>
+		<Id >2022</Id>
+		<Name >Box002</Name>
+		<GlobalPose >0.0359692 0.00900616 0.0102497 0.99926 5.58495 -11.2163 67.1969</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Name >Box002</Name>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Mass >10.9734</Mass>
+				<Geometry >
+					<PxConvexMeshGeometry >
+						<ConvexMesh >2004</ConvexMesh>
+					</PxConvexMeshGeometry>
+				</Geometry>
+				<LocalPose >0 0 0 1 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Name >Box003</Name>
+		<Mass >10.3391</Mass>
+		<LinearVelocity >14.8585 -53.0652 -5.60043</LinearVelocity>
+		<AngularVelocity >0.310302 1.29047 -1.73793</AngularVelocity>
+		<MassSpaceInertiaTensor >182.536 204.954 225.134</MassSpaceInertiaTensor>
+		<Id >2025</Id>
+		<Name >Box003</Name>
+		<GlobalPose >0.0264228 0.0999056 -0.134506 0.985509 28.2159 5.08019 64.7377</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Name >Box003</Name>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Mass >10.3391</Mass>
+				<Geometry >
+					<PxConvexMeshGeometry >
+						<ConvexMesh >2005</ConvexMesh>
+					</PxConvexMeshGeometry>
+				</Geometry>
+				<LocalPose >0 0 0 1 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Name >Box004</Name>
+		<Mass >11.3996</Mass>
+		<LinearVelocity >0 -55 0</LinearVelocity>
+		<AngularVelocity >0 0 0</AngularVelocity>
+		<MassSpaceInertiaTensor >239.261 213.309 273.561</MassSpaceInertiaTensor>
+		<Id >2028</Id>
+		<Name >Box004</Name>
+		<GlobalPose >0 0 0 1 11.6809 36.3945 68.1508</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Name >Box004</Name>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Mass >11.3996</Mass>
+				<Geometry >
+					<PxConvexMeshGeometry >
+						<ConvexMesh >2006</ConvexMesh>
+					</PxConvexMeshGeometry>
+				</Geometry>
+				<LocalPose >0 0 0 1 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Name >Plane001</Name>
+		<Mass >9727.44</Mass>
+		<LinearVelocity >0 0 0</LinearVelocity>
+		<AngularVelocity >0 0 0</AngularVelocity>
+		<MassSpaceInertiaTensor >9.05212e+007 5.77882e+007 1.48021e+008</MassSpaceInertiaTensor>
+		<RigidDynamicFlags >eKINEMATIC|eENERGY_SLEEP_TEST</RigidDynamicFlags>
+		<Id >2031</Id>
+		<Name >Plane001</Name>
+		<GlobalPose >0.707107 0 0 0.707107 21.937 -86.0256 89.3872</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Name >Plane001</Name>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<Mass >0</Mass>
+				<Geometry >
+					<PxConvexMeshGeometry >
+						<ConvexMesh >2007</ConvexMesh>
+					</PxConvexMeshGeometry>
+				</Geometry>
+				<LocalPose >0 0 0 1 0 0 0</LocalPose>
+			</PxShape>
+		</Shapes>
+	</PxRigidDynamic>
+</PhysX30Collection>

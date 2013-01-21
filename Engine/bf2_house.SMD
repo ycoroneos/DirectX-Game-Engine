@@ -1,0 +1,10 @@
+version 1
+nodes
+  0 "ch_house_05_v3=0"  -1
+end
+skeleton
+time 0
+  0 485.130005 1727.790039 984.410034 0.000000 0.000000 -1.570796
+end
+triangles
+end

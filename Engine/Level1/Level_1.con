@@ -1,0 +1,21 @@
+Level 1.con
+Object Dir = \Objects
+Light Dir = \Lighting
+Physics Dir = \Physics
+
+Heightfield = heightMap_16.raw
+Heightfield Texture = terrain.jpg
+Heightfield Scale = 100
+
+Object Library = bone_cone.dae
+
+Lighting Description = g36.3ds
+
+Mesh = Sphere001
+
+Physics Engine = Nvidia Physx
+Physics File = boxes.repx
+
+BEGIN START_COMMANDS
+createFreeFloatCamera(0,0,10,0,0,0,0,1,0,0.1,1000)
+END START_COMMANDS

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Bullet Physics SDK 277 Snapshot(BulletColladaConverter) http://bulletphysics.com</authoring_tool>
+        </contributor>
+        <created>2008-02-12T15:28:54.891550</created>
+        <modified>2008-02-12T15:28:54.891550</modified>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_physics_scenes>
+        <physics_scene id="Scene-Physics" name="MyPhysicsScene">
+            <technique_common>
+                <gravity>0 -9.81 0</gravity>
+            </technique_common>
+        </physics_scene>
+    </library_physics_scenes>
+    <library_visual_scenes>
+        <visual_scene id="Scene" name="MyScene"/>
+    </library_visual_scenes>
+    <scene>
+        <instance_physics_scene url="#Scene-Physics"/>
+        <instance_visual_scene url="#Scene"/>
+    </scene>
+</COLLADA>

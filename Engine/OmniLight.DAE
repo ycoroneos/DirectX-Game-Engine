@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-06-28T23:31:07Z</created>
+    <modified>2011-06-28T23:31:07Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="0.025400"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="mr_Area_Omni001-lib" name="mr_Area_Omni001Mesh">
+      <technique_common>
+        <point>
+          <color sid="color">1.000000 1.000000 1.000000</color>
+        </point>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="mr_Area_Omni001" name="mr_Area_Omni001">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 1.424499 0.000000 1.000000 -0.000000 33.062675 0.000000 0.000000 1.000000 53.858364 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_light url="#mr_Area_Omni001-lib"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+

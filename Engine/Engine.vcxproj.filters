@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Deferred.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysxModule.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletModule.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX_HeightMap_Complex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllable_Character.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedModelObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_loader.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Blinn.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="light.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="light.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Tutorial07.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RTShader.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GBuffer.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightAccum.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="QuadShader.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GBufferDebug.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Level1\Level_1.con">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SkinGBuffer.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="meshes\Sphere001.mesh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="meshes\Cylinder001.mesh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="meshes\Cone001.mesh">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Desktop\assimp--2.0.863-sdk\assimp--2.0.863-sdk\lib\assimp_debug-noboost-st_Win32\assimp.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

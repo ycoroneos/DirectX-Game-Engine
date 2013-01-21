@@ -1,0 +1,16 @@
+newmtl ColorMaterial_FFFFFF00SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 8.00
+newmtl _1___DefaultSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.59 0.59 0.59
+Tf 1.00 1.00 1.00
+map_Kd map_2048_unscaled.png
+Ni 1.00
+Ks 0.90 0.90 0.90

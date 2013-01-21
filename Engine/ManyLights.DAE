@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-06-28T00:57:07Z</created>
+    <modified>2011-06-28T00:57:07Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="0.025400"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="Omni001-lib" name="Omni001Mesh">
+      <technique_common>
+        <point>
+          <color sid="color">1.000000 1.000000 1.000000</color>
+        </point>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="Spot001-lib" name="Spot001Mesh">
+      <technique_common>
+        <spot>
+          <color sid="color">1.000000 1.000000 1.000000</color>
+          <falloff_angle sid="angle">45.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="FDirect001-lib" name="FDirect001Mesh">
+      <technique_common>
+        <directional>
+          <color sid="color">1.000000 1.000000 1.000000</color>
+        </directional>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="FDirect002-lib" name="FDirect002Mesh">
+      <technique_common>
+        <directional>
+          <color sid="color">1.000000 1.000000 1.000000</color>
+        </directional>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="Omni001" name="Omni001">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.854701 0.000000 1.000000 -0.000000 22.236467 0.000000 0.000000 1.000000 -19.671459 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_light url="#Omni001-lib"/>
+      </node>
+      <node id="Spot001" name="Spot001">
+        <matrix sid="matrix">-0.110432 -0.437082 0.892616 61.253563 0.000000 0.898110 0.439772 35.371712 -0.993884 0.048565 -0.099180 7.122507 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_light url="#Spot001-lib"/>
+      </node>
+      <node id="Spot001_Target" name="Spot001_Target">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -10.541310 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 15.099715 0.000000 0.000000 0.000000 1.000000</matrix>
+      </node>
+      <node id="FDirect001" name="FDirect001">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -48.717949 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 -37.891739 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_light url="#FDirect001-lib"/>
+      </node>
+      <node id="FDirect002" name="FDirect002">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -19.161362 0.000000 0.000000 1.000000 70.669518 0.000000 -1.000000 0.000000 -44.414089 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_light url="#FDirect002-lib"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+
